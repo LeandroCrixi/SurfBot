@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Alice&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet');
+
+:root {
+    --font-1: 'Nunito', Arial, Helvetica, sans-serif;
+    --font-2: 'Alice', Arial, Helvetica, serif;
+
+    /* Font Size */
+    --font-1-s: 400 .875rem/1.3 'Nunito', sans-serif; /* 14px */
+    --font-1-s-b: 700 .875rem/1.3 'Nunito', sans-serif; /* 14px */
+    --font-1-m: 400 1.125rem/1.3 'Nunito', sans-serif; /* 18px */
+    --font-1-m-b: 700 1.125rem/1.3 'Nunito', sans-serif; /* 18px */
+    --font-1-l: 400 1.5rem/1.3 'Nunito', sans-serif; /* 24px */
+    --font-1-l-b: 700 1.5rem/1.3 'Nunito', sans-serif; /* 24px */
+    --font-2-m: 400 3.125rem/1.25 'Alice', serif; /* 50px */
+    --font-2-l: 400 4rem/1.25 'Alice', serif; /* 72px */
+    --font-2-xl: 400 4.5rem/1.25 'Alice', serif; /* 80px */
+}
+
+.font-2-xl {
+    font: var(--font-2-l);
+}
+
+body {
+    font-family: var(--font-1-m);
+    color: var(--g6);
+}
+
+h1,
+h2,
+h3 {
+    font-family: var(--font-2);
+}

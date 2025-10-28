@@ -1,0 +1,21 @@
+:root{
+    /* shades of black and white */
+    --g6: #17222D;
+    --g5: #445566;
+    --g4: #667788;
+    --g3: #99AABB;
+    --g2: #BBCCDD;
+    --g1: #E2EBF2;
+    --w: #FFFFFF;
+
+    /* Main colors */
+    /* Shade of blue */
+    --b1: #2299FF;
+    --b2: #1188EE;
+    --b3: #0077CC;
+
+    /* Shade of red */
+    --r1: #FF3322;
+    --r2: #EE2211;
+    --r3: #DD1100;
+}

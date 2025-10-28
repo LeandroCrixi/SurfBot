@@ -1,0 +1,42 @@
+.container {
+    box-sizing: border-box;
+    max-width: 1400px;
+    padding: 30px 45px;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.btn {
+    padding: 10px 20px;
+    font: var(--font-1-m);
+    border: none;
+    border-radius: 5px;
+    background-color: var(--r3);
+    color: var(--w);
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+/* Circle used in the design */
+.has-after::after,
+.has-before::before {
+    content: '';
+    position: absolute;
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    border-width: 3px;
+    border-style: solid;
+}
+
+.dot-after::after {
+    bottom: 7px;
+    margin-left: 16px;
+    border-color: var(--w);
+}
+
+.dot-before::before {
+    top: 4px;
+    margin-left: -30px;
+    border-color: var(--r3);
+}
