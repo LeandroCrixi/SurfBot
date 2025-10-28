@@ -137,6 +137,15 @@
     }
 }
 
+/* @media (max-width: 768px) {
+  .bg-video {
+    display: none;
+  }
+  .hero-section {
+    background: url('../../../public/img/fallback.png') center/cover no-repeat;
+  }
+} */
+
 @media (max-width: 420px) {
     .hero-section {
         & .hero-title {
@@ -626,19 +635,14 @@
     padding: 20px;
     background: var(--b3);
     display: flex;
-    gap: 350px;
+    gap: 300px;
     align-items: center;
 }
 
 @media (max-width: 1040px) {
     .footer {
-        gap: 200px;
-    }
-}
-
-@media (max-width: 840px) {
-    .footer {
-        gap: 100px;
+        flex-direction: column;
+        gap: 30px;
     }
 }
 

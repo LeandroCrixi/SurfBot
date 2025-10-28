@@ -14,8 +14,8 @@
     <!-- Open Graph / Facebook / WhatsApp / Linkedin -->
     <meta property="og:title" content="Surfbot - School of Surf in Algarve, Portugal">
     <meta property="og:type" content="website">
-    <meta property="og:image" content="https://leo-crixi.com/src/img/og_image.jpeg">
-    <meta property="og:url" content="https://leo-crixi.com/">
+    <meta property="og:image" content="https://surfbot-crixi.netlify.app/public/img/project.png">
+    <meta property="og:url" content="https://surfbot-crixi.netlify.app/">
     <meta property="og:description"
         content="Surfbot - School of Surf in Algarve, Portugal - Surf lessons, surf camps, and surf guiding for all levels.">
 
@@ -45,8 +45,9 @@
     </header>
     <main>
         <div class="hero-section">
-            <video autoplay muted loop playsinline class="bg-video">
+            <video autoplay muted loop playsinline poster="./public/img/fallback.png" class="bg-video">
                 <source src="./public/videos/big.webm" type="video/webm">
+                <source src="./public/videos/big.mp4" type="video/mp4">
             </video>
             <div class="hero-title">
                 <h1>Surf lessons</h1>
@@ -197,8 +198,8 @@
                     </address>
 
                     <div class="e_t line-before">
-                        <p>contato@surfbot.com</p>
-                        <p>+351 123 456 789</p>
+                        <p><a href="mailto:leandro.crixi@hotmail.com">leandro.crixi@hotmail.com</a></p>
+                        <p><a href="https://wa.me/+353834688541">+353 83 468 8541</a></p>
                     </div>
 
                     <div class="time line-before">
@@ -213,6 +214,7 @@
     <footer class="footer">
         <img src="./public/icons/Surfbot.svg" alt="">
         <p>Surfbot <span id="current-year"></span> @ Alguns direitos reservados.</p>
+        <p>Website design by <a href="https://leo-crixi.com/" target="_blank">Leo Crixi</a></p>
     </footer>
 
     <script src="./src/js/script.js" type="module"></script>
