@@ -137,14 +137,14 @@
     }
 }
 
-/* @media (max-width: 768px) {
+@media (max-width: 768px) {
   .bg-video {
     display: none;
   }
   .hero-section {
     background: url('../../../public/img/fallback.png') center/cover no-repeat;
   }
-} */
+}
 
 @media (max-width: 420px) {
     .hero-section {
